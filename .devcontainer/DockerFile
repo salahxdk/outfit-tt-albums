@@ -1,4 +1,0 @@
-FROM ghcr.io/cirruslabs/flutter:latest
-
-# Optionally install extra tools here
-RUN apt-get update && apt-get install -y curl unzip git xz-utils zip
