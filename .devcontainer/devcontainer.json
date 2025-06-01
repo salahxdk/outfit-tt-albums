@@ -1,15 +1,15 @@
 {
   "name": "Flutter Dev",
-  "image": "ghcr.io/cirruslabs/flutter:latest",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
+        "Dart-Code.dart-code",
         "Dart-Code.flutter"
       ]
     }
-  },
-  "features": {
-    "ghcr.io/devcontainers/features/android-sdk:1": {}
   },
   "remoteUser": "root"
 }
